@@ -1,0 +1,71 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+}
+
+.project {
+    width: calc(100vw - 1vw);
+    margin: 0 auto;
+}
+
+.project__image {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.project__image--1 {
+    background-image: url('../images/ace-lobby.png');
+    min-height: 100vh;
+}
+
+.project__image--2 {
+    background-image: url('../images//ace-nyc.png');
+    min-height: 400px;
+}
+
+.project__image--3 {
+    background-image: url('../images//ace-nola.png');
+    min-height: 400px;
+}
+
+.project__section {
+    padding: 1rem;
+    text-align: center;
+}
+
+.project__section--light {
+    background: #f4f4f4;
+}
+
+.project__section--dark {
+    background: #282e34;
+    color: #fff;
+}
+
+.project__content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.project__border {
+    background: #111;
+    color: #fff;
+    padding: 1rem;
+}
+
